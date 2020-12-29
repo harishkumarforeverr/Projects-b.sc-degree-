@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>login pge </title>
+ 	<link rel="stylesheet" type="text/css" href="1.css" />
+	 <script type="text/javascript" src="jquery.js.js"> </script>
+ </head>
+
+<body>
+	<div class="container" >
+	<header> 
+		<nav>
+	<ul>
+		<li> <a href="3.html"> index </a> </li>
+		<li> <a href="4.html"> course </a> </li>
+		<li> <a href="5.html"> about </a> </li>
+		<li> <a href="6.html"> contact </a> </li>
+	</ul>
+</nav>
+ 
+<img src="harish.jpg" />
+<h1> welcome to login page </h1>
+</header>
+<section id="main" >
+	<p>This is <em>homepage </em> of <strong>mysirg.com </strong></p>
+	<div class="login_form ordered" id="p1">
+	<form action="login.html" method="post" onsubmit="return f3()">
+		<label for="pa1"> username : </label>
+		<input type="text" name="username " placeholder="name of student " id="username" />
+<br/>
+		<label for="p2"> password : </label>
+		<input type="password" name="pwd " placeholder="password" id="password" />
+<br/>
+		<input type="checkbox" name="remain_me"   id="p3" />
+		<label for="p3"><strong> remain_me </strong>   </label>
+		
+<br/>
+       
+		<input type="submit" value="registor" onclick="f1()" />
+    	<input type="reset" value="cancel" onclick="f2()"  />
+        <div id="errormsg">
+    	</div> 
+	</form>
+      </div>
+   <div id="result">
+   	<button id="toggleButton" > hide </button>
+   <div id="resultlist">
+   	here we will display the result of all the courses.
+   </div>
+</section>
+	<footer>
+		<br/>   &copy; 2020 mysirg.com 
+	</footer>
+</div>
+	<script type="text/javascript" src="jquery.js.js"> </script>
+	<script type="text/javascript" src="1.js" >
+	</script>
+   	<script type="text/javascript" src="testing.js" >
+	   </script>
+</body>
+</html>

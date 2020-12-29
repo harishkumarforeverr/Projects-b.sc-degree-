@@ -1,0 +1,132 @@
+ html,body
+ {
+ 	padding:0px;
+ 	margin:0px;
+ }
+  body
+	{
+ 	font-family: helvetica,arial,sams-serif;
+ 	background-color: lightblue;
+ 	z-index: -1;
+	}
+.container
+{
+	width:990px;
+ 	margin: 0 auto ;
+ 	background-color: lightgray;
+ 	padding: 10px
+}
+footer
+{
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+header nav
+{
+	float: right;
+}
+header nav li 
+{
+	display: inline;
+	font-size: 13px;
+	padding-right:10px;
+}
+a
+{
+	color:blue;
+}
+a:hover
+{
+	color:red;
+}
+img
+	{
+		width:100px;
+	}
+header,footer
+{
+	background-color: lightskyblue;
+	border: 1px solid black;
+}
+.login_form
+{
+ border:1px solid darkgray;
+ border-radius: 5px;
+ color:#202020;
+ margin:0px 10px 10px 10px   ;
+ padding:5px;
+
+}
+.login_form label
+{
+ 	width:100px;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+.login_form input[type=text], .login_form input[type=password]
+{
+	width:200px; 
+}
+.login_form input[type=submit], .login_form input[type=reset]
+{
+	background-color: green;
+	color:#fff;
+	border-radius:10px;
+	padding:3px;
+	margin-top:5px;
+	width:75px;
+}
+.login_form input[type=reset]
+{
+	background-color: gray;
+}
+
+form
+{
+ width:500px;
+}
+
+.login_form
+{
+	width:300px;
+	padding:12px;
+	display: inline-block;
+    vertical-align: top;
+ }
+ #result
+ {
+ 	display: inline-block;
+ 	width:400px;
+ 	padding: 5px;
+ 	vertical-align:top;
+ 	min-height: 500px;
+ 	z-index:999;
+ }
+ body
+ {
+ 	background-color:#007FC0;
+ }
+ #toggleButton
+ {
+ 	width:70px;
+ 	padding:5px;
+ }
+#result > #resultlist > #result108 > .name
+{
+	font-weight:bold;
+}
+#errormsg
+{
+	color:red;
+	font-weight:bold;
+	font-size:15px;
+	margin-top:4px;
+}
+#logout
+{
+ width: 80px;
+ padding:5px;
+ border-radius:10px;
+ background-color: green;
+ color:white;
+}
