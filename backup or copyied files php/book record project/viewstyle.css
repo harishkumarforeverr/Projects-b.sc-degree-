@@ -1,0 +1,18 @@
+#view_table
+{
+border-style:dotted;
+border-color:red;
+width:900px;
+}
+#view_table tr
+{
+background-color:pink;
+}
+#view_table th
+{
+background-color:orange;
+}
+body 
+{
+	background-color:lightblue;
+}

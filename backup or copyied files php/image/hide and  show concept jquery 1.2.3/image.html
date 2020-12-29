@@ -1,0 +1,39 @@
+<html>
+<head>
+<style type="text/css" >
+img
+{
+display:none;
+}
+</style>
+<script src="C:\wamp\www\files of jqueries\jquery.js.js">
+</script>
+<script>
+$(document).ready(
+                        function()
+							{
+							$("#b1").click(
+							function()
+							{
+							if($("#b1").html()=="show")
+							{
+							$("#b1").html("hide");
+							$("img").show();
+							}
+							else
+							{
+							$("#b1").html("show");
+							$("img").hide();
+							}
+							}
+							);
+							}
+				 );
+</script>
+</head>
+<body>
+<h1> welcome harish </h1>
+<button id="b1"  onclick="f1()" > show </button> <br/>
+<img src="harish.jpg" />
+</body>
+</html>
