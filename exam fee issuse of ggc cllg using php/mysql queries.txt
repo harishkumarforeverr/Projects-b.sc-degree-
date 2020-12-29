@@ -1,0 +1,45 @@
+<?php /* 
+ these are the tables i created in the database for my project 
+1) create coomamd
+2) alter command
+3) insert commands
+4)foreign key concept
+5) primary key concept
+
+*/
+?>
+
+create table user
+(
+username char(30),
+password char(30)
+);
+ 
+
+alter table user
+add primary key(username);
+ 
+
+insert into user values('harish','ggc');
+insert into user values('myself','ssr');
+
+ 
+
+create table fee
+(
+money char(30),
+sname char(30)
+);
+ 
+
+alter table fee
+add foreign key(sname) references user(username);
+
+ 
+ 
+insert into fee vales('860','harish');
+insert into fee vales('860','hari');
+
+
+
+
