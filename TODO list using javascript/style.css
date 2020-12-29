@@ -1,0 +1,10 @@
+ ul li{
+     list-style-type: none;
+     font-weight: 600;
+     font-size: 2.1rem;
+     text-align: left;
+     color:blue;
+ } 
+ ul li:hover{
+     background-color: seashell;
+ }
